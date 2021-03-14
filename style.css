@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-part-area{
+    
+    box-shadow: 1px 1px 15px gray;
+    
+   
+}
+
+.card-custom{
+    border: none;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+
+.profile-photo img{
+    width: 90%;
+    border-radius: 50%;
+    margin: 30px 0px 0px 30px;
+    
+}
+
+.table-area{
+    margin-top: 15px;
+}
+
+table tr td{
+    padding-right: 50px;
+}
+
+
+
+.social-links-area i{
+    font-size: 25px;
+    margin: 20px 10px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px gray;
+
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 50%;
+   
+}
+
+.fa-facebook-f{
+    padding: 15px;
+}
+
+.social-links-area i:hover{
+ 
+   color: rgb(85, 85, 184);
+  
+}
+
+.download-resume-area{
+    box-shadow: 1px 1px 15px gray;
+    margin-top: 10px;
+    text-align: center;
+    border-left: 8px solid;
+    border-image: linear-gradient(35deg, rgb(0, 174, 255), rgb(90, 196, 245)) 1;
+    border-right: 8px solid;
+}
+
+.resume-btn{
+    margin: 20px 0px;
+}
+
+.intro-text p{
+ margin-bottom: 30px;
+ padding: 0px 100px;
+}
+
+.my-interest-area{
+    box-shadow: 1px 1px 15px gray;
+    margin-top: 10px;
+   
+}
+
+.my-interest-heading h3{
+    text-align: center;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+.my-interest-text{
+padding: 20px 100px 10px 100px;
+text-align: center;
+}
+
+.interest-icons{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.interest-icons i{
+    font-size: 60px;
+    font-weight: 100;
+    border: 1px solid rgb(187, 184, 184);
+    padding: 12px;
+    margin-right: 10px;
+    width: 110px;
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(0, 132, 255);
+    text-align: center;
+}
+
+.my-skills-area{
+    box-shadow: 1px 1px 15px gray;
+    margin-top: 10px;
+    
+    
+}
+
+.my-skills-text{
+    margin-bottom: 20px;
+}
+
+.my-skills-heading h3{
+    text-align: center;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+.custom-bar{
+    margin: 0px 20px;
+margin-top: 20px;
+height: 25px;
+font-size: 20px;
+}
+
+.contact-area{
+    box-shadow: 1px 1px 15px gray;
+    padding-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.contact-heading h3{
+    text-align: center;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+
+}
+
+.contact-details{
+    
+    margin-left: 20px;
+    line-height: 15px;
+}
+
+.contact-details h4{
+    margin-bottom: 20px;
+}
+
+
+.contact-details i{
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(0, 132, 255);
+  
+}
+
+.shoot-a-message{
+    padding-left: 10px;
+}
+
+input[type=text]{
+
+margin-right: 8px;
+
+padding: 8px;
+border: 1px solid #ddd;
+background-color: rgba(156, 203, 235, 0.883);
+border-radius: 5px;
+width: 48%;
+}
+
+input[type=email]{
+    
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: rgba(156, 203, 235, 0.883);
+    border-radius: 5px;
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+textarea{
+   
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color:rgba(156, 203, 235, 0.883);
+    border-radius: 5px;
+    width: 98%;
+    }
+
+input[type=submit]{
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color:rgba(156, 203, 235, 0.883);
+    border-radius: 5px;
+   width: 98%;
+    margin-top: 5px;
+    font-weight: bold;
+   font-size: 16px;
+}
+input[type=submit]:hover{
+    background-color: rgba(0, 141, 235, 0.883);
+   
+}
+
+.footer-area{
+    background-color: rgb(0, 132, 255);
+    box-shadow: 1px 1px 15px gray;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
